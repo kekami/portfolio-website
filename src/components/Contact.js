@@ -10,15 +10,15 @@ const Contact = () => {
           <hr />
 
           <nav className="nav">
-            <a className="nav__items" to="mailto:kevin.kamimura@live.com">
+            <a className="nav__items" href="mailto:kevin.kamimura@live.com">
               <i className="fa fa-envelope" aria-hidden="true" />
               <h3>Email</h3>
             </a>
-            <a className="nav__items" to="https://github.com/kekami">
+            <a className="nav__items" href="https://github.com/kekami">
               <i className="fa fa-github" aria-hidden="true" />
               <h3>GitHub</h3>
             </a>
-            <a className="nav__items" to="https://www.linkedin.com/in/kevinkamimura/">
+            <a className="nav__items" href="https://www.linkedin.com/in/kevinkamimura/">
               <i className="fa fa-linkedin" aria-hidden="true" />
               <h3>LinkedIn</h3>
             </a>
