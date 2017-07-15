@@ -39,8 +39,8 @@ const Portfolio = () => {
             image={portfolio}
             title="Portfolio Website"
             description="A fully responsive single page application written in React. React-Router v4 is used for frontend routing and React Transition Group for route based transitions."
-            githubURL="https://github.com/kekami/real-estate"
-            liveURL="http://grieving-bit.surge.sh/"
+            githubURL="https://github.com/kekami/portfolio-website"
+            liveURL="www.kevinkamimura.com"
           />
           <Project
             image={movieDB}
