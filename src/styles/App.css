@@ -23,9 +23,9 @@ body {
   padding: 0.5em;
 }
 
-@media (min-width: 60em) {
+@media (min-width: 50em) {
   .container {
-    max-width: 50%;
+    max-width: 50em;
     margin: 0 auto;
   }
 }

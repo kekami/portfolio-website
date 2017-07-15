@@ -13,12 +13,12 @@
 
 .project__info {
   margin-top: 1em;
-  max-width: 25em;
+  max-width: 20em;
 }
 
-@media (min-width: 60em) {
+@media (min-width: 40em) {
   .project__info {
-    margin-left: 1em;
+    padding: 1em;
   }
 }
 
