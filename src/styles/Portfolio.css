@@ -1,0 +1,15 @@
+.portfolio {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 50px);
+  background-color: #eee;
+  overflow: scroll;
+}
+
+.portfolio h2 {
+  margin-bottom: 0;
+  font-size: 1.8em;
+  font-weight: 300;
+}

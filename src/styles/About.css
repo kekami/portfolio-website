@@ -1,0 +1,43 @@
+.about {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 50px);
+  background-color: #eee;
+  overflow: scroll;
+}
+
+.about h3 {
+  font-weight: 500;
+}
+
+.me > img {
+  width: 15em;
+  margin: 1em;
+  border-radius: 10px;
+}
+
+.blockquote {
+  padding: 0.5em 1em;
+  margin: 0;
+  margin-bottom: 1em;
+  font-size: 1.25em;
+  border-left: 0.25em solid #ddd;
+  color: #636c72;
+}
+
+hr {
+  width: 100%;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logos__item {
+  width: 5em;
+  margin: 0.5em;
+}

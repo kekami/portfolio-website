@@ -1,0 +1,96 @@
+.home {
+  text-align: center;
+  background-image: url('../images/header.jpg');
+  background-color: rgba(0,0,0,0.5);
+  background-size: cover;
+  background-position: 50%;
+  background-blend-mode: multiply;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.nav--header {
+  height: 50px;
+}
+
+.nav__items {
+  margin: 1em 1.5em;
+}
+
+.nav__items > a {
+  font-size: 1.2em;
+}
+
+.nav__items > h3 {
+  margin: 0;
+}
+
+.fa {
+  font-size: 2em;
+}
+
+.main {
+  height: calc(100% - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+}
+
+.main h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 3.2em;
+  font-weight: 300;
+}
+
+.hello-world {
+  position: relative;
+  display: inline-block;
+  font-family: Monaco, Arial, Helvetica, sans-serif;
+  line-height: 24px;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.hello-world::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -15px;
+  display: inline-block;
+  background-color: #606060;
+  vertical-align: top;
+  width: 10px;
+  height: 24px;
+  -webkit-animation: blink 1s step-end infinite;
+  animation: blink 1s step-end infinite;
+}
+
+@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
