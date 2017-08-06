@@ -53,7 +53,7 @@ const Portfolio = () => {
           <Project 
             image={jobbatical}
             title="A Jobbatical Clone"
-            description="An ongoing collaborative project aiming on recreating Jobbatical.com in the MERN stack. The emphasize is on gaining valuable experience from developing in a team setting with propper version control, testing and deployment."
+            description="An ongoing collaborative project aiming on recreating Jobbatical.com with the MERN stack. The emphasize is on gaining valuable experience from developing in a team setting with proper version control, testing and deployment."
             githubURL="https://github.com/kekami/react-jobs"
             liveURL="www.kevinkamimura.com"
           />
