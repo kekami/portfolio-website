@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import createBrowserHistory from 'history/createBrowserHistory';
 import { CSSTransitionGroup } from 'react-transition-group'
 import Home from './components/Home';
 import About from './components/About';
@@ -11,7 +12,7 @@ import './styles/App.css';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter history={createBrowserHistory()}>
         <div>
           <Route path="/" component={Home} />
 
