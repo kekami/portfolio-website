@@ -1,7 +1,6 @@
 import React from 'react';
 import Project from './Project';
 import movieDB from '../images/movieDB.png';
-import webhosting from '../images/kamimura-hosting.jpg';
 import travel from '../images/portfolio-travel.jpg';
 import realEstate from '../images/real-estate.jpg';
 import portfolio from '../images/portfolio.jpg';
@@ -16,13 +15,6 @@ const Portfolio = () => {
           <h2>A couple of projects I've been working on.</h2>
           <h3>Mobile first, with a fully responsive design. As it should be.</h3>
           <hr />
-          <Project 
-            image={webhosting}
-            title="Hosting"
-            description="A fully responsive website for a fictional webhosting company written in HTML5 and SASS using Gulp.js as task runner."
-            githubURL="https://github.com/kekami/kamimura-hosting"
-            liveURL="http://mute-motion.surge.sh/"
-          />
           <Project 
             image={travel}
             title="Travel"
