@@ -23,9 +23,9 @@ class App extends Component {
               transitionName="slide"
             >
               <Switch key={location.key} location={location}>
-                <Route path="/about" component={About}/>
-                <Route path="/portfolio" component={Portfolio}/>
-                <Route path="/contact" component={Contact}/>
+                <Route path={`${process.env.PUBLIC_URL}/about`} component={About}/>
+                <Route path={`${process.env.PUBLIC_URL}/portfolio`} component={Portfolio}/>
+                <Route path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
               </Switch>
             </CSSTransitionGroup>
           )}/>
