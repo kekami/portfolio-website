@@ -27,6 +27,18 @@
   color: #636c72;
 }
 
+.resume {
+  margin-top: 2em;
+}
+
+.resume i {
+  font-size: 4rem;
+}
+
+.resume > a {
+  color: #000000;
+}
+
 hr {
   width: 100%;
 }

@@ -21,6 +21,13 @@ const About = () => {
             <p className="lead">Over the past months I have come to a realization that I live and breathe, and dream in - code. Is this life?</p>
             <footer className="blockquote-footer"><cite title="Source Title">-- Philosopher Kevin</cite></footer>
           </blockquote>
+
+          <div className="resume">
+            <a href="https://www.dropbox.com/s/nwipasawbdqu2pp/CV%20-%20Kevin%20Kamimura.pdf?dl=0">
+              <i className="fa fa-file-pdf-o" aria-hidden="true" />
+              <h4>My Resume (in Swedish)</h4>
+            </a>
+          </div>
         </section>
 
         <hr/>
