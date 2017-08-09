@@ -46,7 +46,7 @@ const Portfolio = () => {
           <Project
             image={movieDB}
             title="MovieDB"
-            description="Full-stack movie database with features such as the ability to search and favorite movies. Created to practice and demonstrate React/Redux, Node/Express, REST Apis, Authentication, MongoDB and asynchronous JavaScript."
+            description="Full-stack movie database with features such as the ability to search and favorite movies. Created to practice and demonstrate React/Redux, Node/Express, REST Apis, Authentication, MongoDB and asynchronous JavaScript. (Initial load on the live version might be slow due to free tier heroku hosting.)"
             githubURL="https://github.com/kekami/movieDB"
             liveURL="https://whispering-falls-55926.herokuapp.com/"
           />
